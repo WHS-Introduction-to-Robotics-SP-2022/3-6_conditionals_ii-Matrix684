@@ -39,13 +39,13 @@ void loop() {
   analogWrite(Blue, 255);
   }
   else if (Val>730 && Val<=876) {
-  analogWrite(Red, 0);
+  analogWrite(Red, 255);
   analogWrite(Green, 0);
   analogWrite(Blue, 255);
   }
   else {
-  analogWrite(Red, 255);
+  analogWrite(Red, 80);
   analogWrite(Green, 0);
-  analogWrite(Blue, 255);
+  analogWrite(Blue, 130);
   }
 }
